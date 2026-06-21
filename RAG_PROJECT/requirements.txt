@@ -1,0 +1,8 @@
+# RAG Project — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+streamlit           # web UI framework
+sentence-transformers  # free, local embedding model (all-MiniLM-L6-v2)
+PyMuPDF             # reads PDF files (imported as `fitz`)
+numpy               # vector math for cosine similarity
+groq                # LLM API client (free tier available)
